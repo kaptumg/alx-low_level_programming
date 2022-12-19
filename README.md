@@ -1,1 +1,1 @@
-C programming first steps
+ 0x05-pointers_arrays_strings
