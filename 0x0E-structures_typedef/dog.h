@@ -1,23 +1,22 @@
 #ifndef DOG_H
 #define DOG_H
+
 /**
  * struct dog - describes a dog and its attributes
- * @name: First member, char pointer
- * @age: Second member, float
- * @owner: Third memeber, char pointer
- * Description: This struct has three elements and is a new type dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: name of the dog owner
  */
-
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
+
 /**
  * dog - Typdef for dog type
  */
-
 typedef struct dog dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
